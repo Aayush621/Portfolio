@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from recommendation import HybridRecommender
-from agent import SchemeRecommenderAgent
+from scripts.agent import SchemeRecommenderAgent
 from feedback import FeedbackProcessor
 import os
 
